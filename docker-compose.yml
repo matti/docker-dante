@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  dante:
+    build: .
+    image: mattipaksula/dante
+    ports:
+      - 1080:1080
